@@ -1,0 +1,279 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E6BA76C1639397B00C0E4C8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E6BA76B1639397B00C0E4C8 /* UIKit.framework */; };
+		0E6BA76E1639397B00C0E4C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E6BA76D1639397B00C0E4C8 /* Foundation.framework */; };
+		0E6BA7701639397B00C0E4C8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E6BA76F1639397B00C0E4C8 /* CoreGraphics.framework */; };
+		0E6BA7761639397B00C0E4C8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0E6BA7741639397B00C0E4C8 /* InfoPlist.strings */; };
+		0E6BA7781639397B00C0E4C8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6BA7771639397B00C0E4C8 /* main.m */; };
+		0E6BA77C1639397B00C0E4C8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6BA77B1639397B00C0E4C8 /* AppDelegate.m */; };
+		0E6BA77F1639397B00C0E4C8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6BA77E1639397B00C0E4C8 /* ViewController.m */; };
+		0E6BA7821639397B00C0E4C8 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E6BA7801639397B00C0E4C8 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0E6BA7671639397B00C0E4C8 /* HelloDouban.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloDouban.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E6BA76B1639397B00C0E4C8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0E6BA76D1639397B00C0E4C8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0E6BA76F1639397B00C0E4C8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0E6BA7731639397B00C0E4C8 /* HelloDouban-Info.plist */ = {isa = PBXFileReference; path = "HelloDouban-Info.plist"; sourceTree = "<group>"; };
+		0E6BA7751639397B00C0E4C8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0E6BA7771639397B00C0E4C8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0E6BA7791639397B00C0E4C8 /* HelloDouban-Prefix.pch */ = {isa = PBXFileReference; path = "HelloDouban-Prefix.pch"; sourceTree = "<group>"; };
+		0E6BA77A1639397B00C0E4C8 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		0E6BA77B1639397B00C0E4C8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0E6BA77D1639397B00C0E4C8 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		0E6BA77E1639397B00C0E4C8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0E6BA7811639397B00C0E4C8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E6BA7641639397B00C0E4C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E6BA76C1639397B00C0E4C8 /* UIKit.framework in Frameworks */,
+				0E6BA76E1639397B00C0E4C8 /* Foundation.framework in Frameworks */,
+				0E6BA7701639397B00C0E4C8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E6BA75C1639397B00C0E4C8 = {
+			isa = PBXGroup;
+			children = (
+				0E6BA7711639397B00C0E4C8 /* HelloDouban */,
+				0E6BA76A1639397B00C0E4C8 /* Frameworks */,
+				0E6BA7681639397B00C0E4C8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0E6BA7681639397B00C0E4C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0E6BA7671639397B00C0E4C8 /* HelloDouban.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0E6BA76A1639397B00C0E4C8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0E6BA76B1639397B00C0E4C8 /* UIKit.framework */,
+				0E6BA76D1639397B00C0E4C8 /* Foundation.framework */,
+				0E6BA76F1639397B00C0E4C8 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0E6BA7711639397B00C0E4C8 /* HelloDouban */ = {
+			isa = PBXGroup;
+			children = (
+				0E6BA77A1639397B00C0E4C8 /* AppDelegate.h */,
+				0E6BA77B1639397B00C0E4C8 /* AppDelegate.m */,
+				0E6BA77D1639397B00C0E4C8 /* ViewController.h */,
+				0E6BA77E1639397B00C0E4C8 /* ViewController.m */,
+				0E6BA7801639397B00C0E4C8 /* ViewController.xib */,
+				0E6BA7721639397B00C0E4C8 /* Supporting Files */,
+			);
+			path = HelloDouban;
+			sourceTree = "<group>";
+		};
+		0E6BA7721639397B00C0E4C8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0E6BA7731639397B00C0E4C8 /* HelloDouban-Info.plist */,
+				0E6BA7741639397B00C0E4C8 /* InfoPlist.strings */,
+				0E6BA7771639397B00C0E4C8 /* main.m */,
+				0E6BA7791639397B00C0E4C8 /* HelloDouban-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0E6BA7661639397B00C0E4C8 /* HelloDouban */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E6BA7851639397B00C0E4C8 /* Build configuration list for PBXNativeTarget "HelloDouban" */;
+			buildPhases = (
+				0E6BA7631639397B00C0E4C8 /* Sources */,
+				0E6BA7641639397B00C0E4C8 /* Frameworks */,
+				0E6BA7651639397B00C0E4C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloDouban;
+			productName = HelloDouban;
+			productReference = 0E6BA7671639397B00C0E4C8 /* HelloDouban.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0E6BA75E1639397B00C0E4C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 0E6BA7611639397B00C0E4C8 /* Build configuration list for PBXProject "HelloDouban" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0E6BA75C1639397B00C0E4C8;
+			productRefGroup = 0E6BA7681639397B00C0E4C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E6BA7661639397B00C0E4C8 /* HelloDouban */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0E6BA7651639397B00C0E4C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E6BA7761639397B00C0E4C8 /* InfoPlist.strings in Resources */,
+				0E6BA7821639397B00C0E4C8 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E6BA7631639397B00C0E4C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E6BA7781639397B00C0E4C8 /* main.m in Sources */,
+				0E6BA77C1639397B00C0E4C8 /* AppDelegate.m in Sources */,
+				0E6BA77F1639397B00C0E4C8 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0E6BA7741639397B00C0E4C8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E6BA7751639397B00C0E4C8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0E6BA7801639397B00C0E4C8 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E6BA7811639397B00C0E4C8 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0E6BA7831639397B00C0E4C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0E6BA7841639397B00C0E4C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0E6BA7861639397B00C0E4C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloDouban/HelloDouban-Prefix.pch";
+				INFOPLIST_FILE = "HelloDouban/HelloDouban-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0E6BA7871639397B00C0E4C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloDouban/HelloDouban-Prefix.pch";
+				INFOPLIST_FILE = "HelloDouban/HelloDouban-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E6BA7611639397B00C0E4C8 /* Build configuration list for PBXProject "HelloDouban" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E6BA7831639397B00C0E4C8 /* Debug */,
+				0E6BA7841639397B00C0E4C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E6BA7851639397B00C0E4C8 /* Build configuration list for PBXNativeTarget "HelloDouban" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E6BA7861639397B00C0E4C8 /* Debug */,
+				0E6BA7871639397B00C0E4C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0E6BA75E1639397B00C0E4C8 /* Project object */;
+}
