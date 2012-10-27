@@ -10,4 +10,9 @@
 
 @interface ViewController : UIViewController
 
+- (void)goAuth:(id)sender;
+
+
+- (void)getMyInfo:(id)sender;
+
 @end

@@ -15,6 +15,9 @@
 		0E6BA77C1639397B00C0E4C8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6BA77B1639397B00C0E4C8 /* AppDelegate.m */; };
 		0E6BA77F1639397B00C0E4C8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6BA77E1639397B00C0E4C8 /* ViewController.m */; };
 		0E6BA7821639397B00C0E4C8 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E6BA7801639397B00C0E4C8 /* ViewController.xib */; };
+		0E6BA78A163939AB00C0E4C8 /* DouAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6BA789163939AB00C0E4C8 /* DouAuth.m */; };
+		0E6BA78C16393E9000C0E4C8 /* login_with_douban_24.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E6BA78B16393E9000C0E4C8 /* login_with_douban_24.png */; };
+		2CE43C0D16398E8A00A41D40 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE43C0C16398E8A00A41D40 /* JSONKit.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +25,20 @@
 		0E6BA76B1639397B00C0E4C8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		0E6BA76D1639397B00C0E4C8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0E6BA76F1639397B00C0E4C8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		0E6BA7731639397B00C0E4C8 /* HelloDouban-Info.plist */ = {isa = PBXFileReference; path = "HelloDouban-Info.plist"; sourceTree = "<group>"; };
+		0E6BA7731639397B00C0E4C8 /* HelloDouban-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloDouban-Info.plist"; sourceTree = "<group>"; };
 		0E6BA7751639397B00C0E4C8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0E6BA7771639397B00C0E4C8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		0E6BA7791639397B00C0E4C8 /* HelloDouban-Prefix.pch */ = {isa = PBXFileReference; path = "HelloDouban-Prefix.pch"; sourceTree = "<group>"; };
-		0E6BA77A1639397B00C0E4C8 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		0E6BA7791639397B00C0E4C8 /* HelloDouban-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloDouban-Prefix.pch"; sourceTree = "<group>"; };
+		0E6BA77A1639397B00C0E4C8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0E6BA77B1639397B00C0E4C8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0E6BA77D1639397B00C0E4C8 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		0E6BA77D1639397B00C0E4C8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		0E6BA77E1639397B00C0E4C8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		0E6BA7811639397B00C0E4C8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		0E6BA788163939AB00C0E4C8 /* DouAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DouAuth.h; sourceTree = "<group>"; };
+		0E6BA789163939AB00C0E4C8 /* DouAuth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DouAuth.m; sourceTree = "<group>"; };
+		0E6BA78B16393E9000C0E4C8 /* login_with_douban_24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login_with_douban_24.png; sourceTree = "<group>"; };
+		2CE43C0B16398E8A00A41D40 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		2CE43C0C16398E8A00A41D40 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +85,16 @@
 		0E6BA7711639397B00C0E4C8 /* HelloDouban */ = {
 			isa = PBXGroup;
 			children = (
+				2CE43C0A16398E8A00A41D40 /* libs */,
+				0E6BA78B16393E9000C0E4C8 /* login_with_douban_24.png */,
 				0E6BA77A1639397B00C0E4C8 /* AppDelegate.h */,
 				0E6BA77B1639397B00C0E4C8 /* AppDelegate.m */,
 				0E6BA77D1639397B00C0E4C8 /* ViewController.h */,
 				0E6BA77E1639397B00C0E4C8 /* ViewController.m */,
 				0E6BA7801639397B00C0E4C8 /* ViewController.xib */,
 				0E6BA7721639397B00C0E4C8 /* Supporting Files */,
+				0E6BA788163939AB00C0E4C8 /* DouAuth.h */,
+				0E6BA789163939AB00C0E4C8 /* DouAuth.m */,
 			);
 			path = HelloDouban;
 			sourceTree = "<group>";
@@ -96,6 +108,15 @@
 				0E6BA7791639397B00C0E4C8 /* HelloDouban-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2CE43C0A16398E8A00A41D40 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				2CE43C0B16398E8A00A41D40 /* JSONKit.h */,
+				2CE43C0C16398E8A00A41D40 /* JSONKit.m */,
+			);
+			path = libs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +171,7 @@
 			files = (
 				0E6BA7761639397B00C0E4C8 /* InfoPlist.strings in Resources */,
 				0E6BA7821639397B00C0E4C8 /* ViewController.xib in Resources */,
+				0E6BA78C16393E9000C0E4C8 /* login_with_douban_24.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,6 +185,8 @@
 				0E6BA7781639397B00C0E4C8 /* main.m in Sources */,
 				0E6BA77C1639397B00C0E4C8 /* AppDelegate.m in Sources */,
 				0E6BA77F1639397B00C0E4C8 /* ViewController.m in Sources */,
+				0E6BA78A163939AB00C0E4C8 /* DouAuth.m in Sources */,
+				2CE43C0D16398E8A00A41D40 /* JSONKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +296,7 @@
 				0E6BA7871639397B00C0E4C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
